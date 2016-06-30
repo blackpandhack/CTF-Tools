@@ -25,55 +25,55 @@ Outils pour CTF
  - http://faculty.cs.nku.edu/~waldenj/ctf/tools.html
  
 
-THEME: FORENSIC
+### THEME: FORENSIC
 1. Decompilers Online
- Ce site permet de décompiler en ligne des fichiers APK (Application Android) ainsi que des fichiers java.
- http://www.javadecompilers.com
+ - Ce site permet de décompiler en ligne des fichiers APK (Application Android) ainsi que des fichiers java.
+ - http://www.javadecompilers.com
 2. IDEONE
- IDE en ligne permettant de compiler un grand nombre de langages de programmation (C, Java, C++, PHP…).
- https://ideone.com
+ - IDE en ligne permettant de compiler un grand nombre de langages de programmation (C, Java, C++, PHP…).
+ - https://ideone.com
 3. Malwr
-  Il s'agit d'un système d'analyse fonctionnant en mode Sandbox et capable de tracer les appels aux API et fonctions Windows, de connaitre et conserver les fichiers créés ou supprimés par le malware, d'enregistrer les états de la mémoire (dump) lors de l'infection, de choper les trames réseaux générées par la machine (domaines contactés, IP..etc.), et même de faire des captures-écrans durant l'exécution du malware.
-  https://malwr.com
-4.	Volatility
-  Volatility est un Framework contenant de multiples outils visant à aider dans la manipulation de données contenues dans un dump mémoire (RAM). A ce jour, l’outil permet d’extraire les données suivantes : Processus en cours d’exécution, connexion ouvertes, DLLs chargées par les processus, fichier ouverts par les processus, exécutables, données de la base de registre…
-  http://www.lestutosdenico.com/tutos-de-nico/forensique-analyse-memoire-volatility
+ - Il s'agit d'un système d'analyse fonctionnant en mode Sandbox et capable de tracer les appels aux API et fonctions Windows, de connaitre et conserver les fichiers créés ou supprimés par le malware, d'enregistrer les états de la mémoire (dump) lors de l'infection, de choper les trames réseaux générées par la machine (domaines contactés, IP..etc.), et même de faire des captures-écrans durant l'exécution du malware.
+  - https://malwr.com
+4. Volatility
+  - Volatility est un Framework contenant de multiples outils visant à aider dans la manipulation de données contenues dans un dump mémoire (RAM). A ce jour, l’outil permet d’extraire les données suivantes : Processus en cours d’exécution, connexion ouvertes, DLLs chargées par les processus, fichier ouverts par les processus, exécutables, données de la base de registre…
+  - http://www.lestutosdenico.com/tutos-de-nico/forensique-analyse-memoire-volatility
 
  
 
-THEME : BRUTE FORCE
+### THEME : BRUTE FORCE
 1. John The Ripper
-  Utile pour bruteforcer des mots de passes divers (Windows, fichier ZIP…).
-  http://mpslinux.com/petit-tutoriel-simple-sur-lutilisation-de-john-the-ripper
-Lignes de commande utile :
-  $ zip2john FICHIER.zip > bruteforce/zip.hashes
-  PUIS
-  $ john --show ./zip.hashes
+  - Utile pour bruteforcer des mots de passes divers (Windows, fichier ZIP…).
+  - http://mpslinux.com/petit-tutoriel-simple-sur-lutilisation-de-john-the-ripper
+### Lignes de commande utile :
+  - $ zip2john FICHIER.zip > bruteforce/zip.hashes
+  - PUIS
+  - $ john --show ./zip.hashes
 2. Hashcat
-  Hashcat est le plus rapide outil de récupération de mot de passe à base de CPU dans le monde pour bruteforcer les fichiers protégés.
-  http://fhack.troptop.net/?BruteForce_%26amp%3B_Rainbow_%26amp%3B_Dico___Outils___Hashcat
-  Ligne de commande utile :
-  $ ./hashcat-cli64.bin -a0  -m0 hashfile ../../wordlists/darkc0de.lst
+  - Hashcat est le plus rapide outil de récupération de mot de passe à base de CPU dans le monde pour bruteforcer les fichiers protégés.
+  - http://fhack.troptop.net/?BruteForce_%26amp%3B_Rainbow_%26amp%3B_Dico___Outils___Hashcat
+### Ligne de commande utile :
+  - $ ./hashcat-cli64.bin -a0  -m0 hashfile ../../wordlists/darkc0de.lst
 3. Android Hash to gesture
-  Outil en ligne permettant d’afficher la gestuelle d’un écran de verrouillage Android à partir d’un dump d’un HASH récupéré sur le téléphone.
-  https://barney.0x539.se/android/
+  - Outil en ligne permettant d’afficher la gestuelle d’un écran de verrouillage Android à partir d’un dump d’un HASH récupéré sur le téléphone.
+  - https://barney.0x539.se/android/
 
-THEME: RESEAUX
+### THEME: RESEAUX
 1. Wireshark
-  Wireshark est un analyseur de paquets libre utilisé dans le dépannage et l'analyse de réseaux informatiques, le développement de protocoles, l'éducation et la rétro-ingénierie.
-  https://www.wireshark.org
+  - Wireshark est un analyseur de paquets libre utilisé dans le dépannage et l'analyse de réseaux informatiques, le développement de protocoles, l'éducation et la rétro-ingénierie.
+  - https://www.wireshark.org
 
  
-THEME : STEGANOGRAPHIE PHOTO
+### THEME : STEGANOGRAPHIE PHOTO
 1. Forensically
-  Forensically est un site en ligne très pratique pour faire de l’analyse d’image : détection de copie, de pixels modifiés, d’erreurs, analyse de bruit…
-  https://29a.ch/photo-forensics/#forensic-magnifier
+  - Forensically est un site en ligne très pratique pour faire de l’analyse d’image : détection de copie, de pixels modifiés, d’erreurs, analyse de bruit…
+  - https://29a.ch/photo-forensics/#forensic-magnifier
 
-THEME : STEGANOGRAPHIE AUDIO
+### THEME : STEGANOGRAPHIE AUDIO
 1. Audacity
-  Logiciel gratuit pour analyser des trames audio
-  http://www .audacity.fr
-2.	Sonic Visualizer
-  Logiciel gratuit sous Linux, Windows et Mac OS X permettant de faire de l’analyse de trame, modifier les spectres…
-  http://www.sonicvisualiser.org
+  - Logiciel gratuit pour analyser des trames audio
+  - http://www .audacity.fr
+2. Sonic Visualizer
+  - Logiciel gratuit sous Linux, Windows et Mac OS X permettant de faire de l’analyse de trame, modifier les spectres…
+  - http://www.sonicvisualiser.org
 
