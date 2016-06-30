@@ -48,13 +48,13 @@ Outils pour CTF
   - http://mpslinux.com/petit-tutoriel-simple-sur-lutilisation-de-john-the-ripper
 ### Lignes de commande utile :
 1. *John the ripper*
-  ```BASH
+  ```bash
   zip2john FICHIER.zip > bruteforce/zip.hashes
   john --show ./zip.hashes
   ```
 2. *Hashcat*
   [dico](http://fhack.troptop.net/?BruteForce_%26amp%3B_Rainbow_%26amp%3B_Dico___Outils___Hashcat)
-  ```BASH
+  ```bash
   # Hashcat est le plus rapide outil de récupération de mot de passe à base de CPU dans le monde pour bruteforcer les fichiers protégés.
   ./hashcat-cli64.bin -a0  -m0 hashfile ../../wordlists/darkc0de.lst
   ```
